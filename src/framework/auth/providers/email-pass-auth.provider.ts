@@ -112,7 +112,7 @@ import { getDeepFromObject } from '../helpers';
 @Injectable()
 export class NbEmailPassAuthProvider extends NbAbstractAuthProvider {
 
-  protected defaultConfig: NgEmailPassAuthProviderConfig = {
+  protected defaultConfig: NbEmailPassAuthProviderConfig = {
     baseEndpoint: '/api/auth/',
     login: {
       alwaysFail: false,
